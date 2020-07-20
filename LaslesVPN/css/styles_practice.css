@@ -1,0 +1,100 @@
+#press {
+    background: #ef8172;
+    padding-bottom: 3%;
+
+  }
+  
+.press-logo {
+    width: 5%;
+    margin: 20px 20px 50px;
+  }
+
+
+
+/* .icons-list{
+    
+   
+}
+
+.title-icons-list{
+    width: 90%;
+    background:rebeccapurple;
+    border-radius: 2rem;
+    display: flex;
+    margin-left: 5rem;
+} */
+
+
+/* .title-icon-margin{
+    margin-left: 6rem;
+    margin-right: 2.5rem;
+    margin-top: 2.4rem;
+    width: 30%;
+}
+
+.title-margin-ver-line{
+    margin-left: 7rem;
+    margin-right: 2rem;
+    width: 1.7%;
+}
+
+.title-icon-setting{
+    margin-top: 2.4rem;
+    width: 90%;
+    
+} */
+
+.title-icons-container{
+    border-radius: 0.625rem;
+    margin-top: 10%;
+    box-shadow: 5px 5px 5px 5px  #0D1025;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title-icon-margin-2{
+    margin-top: 50%;
+}
+
+.title-icon-setting-2{
+    margin-top: 50%;
+}
+
+.title-margin-ver-line-2{
+    margin-left: 50%;
+}
+
+.title-margin-ver-line-3{
+    margin-left: 90%;
+}
+
+
+
+
+@media only screen and (max-width:990px){
+    
+
+    .title-icon-margin{
+        text-align: center;
+      
+    }
+    .title-icon-margin-2{
+        width:15%;
+        margin-top: 5%;
+    }
+
+    .title-margin-ver-line{
+        display: none;
+    }
+    .title-icon-setting{
+        text-align: center;
+       
+        margin-bottom: 5%;
+    }
+    .title-icon-setting-2{
+        width: 15%;
+        margin-top: 3%;
+    }
+}
+
+
