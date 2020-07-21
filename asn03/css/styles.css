@@ -1,0 +1,116 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+hr {
+    margin: auto;
+    margin-bottom: 1rem;
+    position: relative;
+    top: -1rem;
+    width: 93%;
+    border: 1px solid #DBDBDB;
+}
+
+.form-group{
+    margin: auto;
+    padding-top: 0rem;
+}
+
+.form-logo-align{
+    text-align: center;
+}
+
+.form-logo-align-2{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    color: #4F4F4F;
+    margin-top: 7%;
+    margin-bottom: auto;
+}
+
+.form-container{
+    background: #EFEFEF;
+    height: 40rem;
+}
+
+.company-logo{
+    margin: 5% 0% 2% 0%;
+}
+
+.form-box{
+    background: white;
+    border-radius: 0.625rem;
+    border: 1px solid #E5E5E5;
+    margin: 0% 30%;
+}
+
+.form-icon{
+    margin: 10% 0% 0% 3%;
+}
+
+.form-icon-2{
+    margin-left: 3%;
+}
+
+
+@media only screen and (max-width:900px) {
+    .form-box{
+        margin: 0% 20%;
+    }
+    .company-logo{
+        margin-top: 8%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .form-box{
+        margin: 0% 13%;
+    }
+    .company-logo{
+        margin-top: 10%;
+    }
+}
+
+.form-input-box{
+    position: relative;
+    left: 8%;
+    top: -1.7rem;
+    border-radius: 0rem;
+    border: none;
+    width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    
+}
+
+.form-input-box::placeholder {
+    color: #A7A8AA;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+  }
+  
+
+.btn{
+    background: #FF6B55;
+    border-radius: 0.129rem;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    width: 90%;
+    height: 3rem;
+    margin: 2% 0% 7% 5%;
+}
+
+.btn:hover{
+    background: #fa4023;
+}
+
