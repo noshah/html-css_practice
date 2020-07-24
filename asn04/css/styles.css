@@ -1,0 +1,310 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Dashboard-Heading */
+
+.dashboard-title-text-img{
+    background: #6945FF;
+    width: 100%;
+    height: 4.5rem;
+}
+
+.dashboard-title-img{
+    position: absolute;
+    left: 5.62%;
+    right: 89.15%;
+    top: 3.0%;
+    bottom: 95.8%;
+}
+
+.dashboard-title-img-2{
+    position: absolute;
+    left: 95%;
+    top: 3.0%;
+}
+
+.dashboard-title-text{
+    position: absolute;
+    left: 25%;
+    top: 3.0%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+}
+
+/* Dashboard-Navbar */
+.dashboard-navbar{
+    margin-top: 1.5%;
+}
+
+.navbar-brand{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #6C7177;
+    margin-left: 16%;
+}
+
+
+.dashboard-navbar-img{
+    margin-left: 0.5rem;
+    margin-top: -3.6rem;
+    margin-bottom: 1.5%;
+}
+
+.dashboard-navbar-img-2{
+    margin-right: 2%;
+}
+
+.dashboard-navbar-text{
+    padding-right: 50rem;
+    margin-left: 0.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.0rem;
+    color: #6C7177;
+}
+
+.dashboard-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.0rem;
+    color: #6C7177;
+    display: inline;
+}
+
+/* side container */
+.colored-section{
+    background:#EFEFEF;
+    height: 120rem;
+    width: 90%;
+    position: absolute;
+    top: 10rem;
+    left: 13rem;
+}
+
+/* navbar-white-section */
+
+/* dashboard-data */
+
+.dashboard-data-heading{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.7rem;
+    line-height: 1.75rem;
+    color: #4F5256;
+    display: inline;
+}
+
+.dashboard-data-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.74375rem;
+    line-height: 0.875px;
+    color: #A2A2A2;
+    display: inline;
+}
+
+.dashboard-data{
+    padding: 5% 5% 5% 6%;
+}
+
+/* white-section-1 */
+
+.white-section-1{
+    background: #FFFFFF;
+    height: 5.3125rem;
+    width: 14rem;
+    border: 1px solid #CED4DA;
+    border-radius: 0.1875rem;
+    
+}
+  
+.dashboard-data-title-1{
+    position: absolute;
+    top: 0.8rem;
+    left: 2rem;
+}
+
+.dashboard-data-img-1{
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+}
+
+.dashboard-data-icon-1{
+    position: absolute;
+    top: 4rem;
+    left: 2.2rem;
+}
+
+.dashboard-data-sen-1{
+    position: absolute;
+    top: 4.2rem;
+    left: 3.3rem;
+}
+
+/* dashboard-graph */
+
+.dashboard-graph{
+    padding-left: 6%;
+    padding-right: 5%;
+}
+
+/* dashboard-graph-white-section */
+
+.white-section-5{
+    background: #FFFFFF;
+    height: 24.3125rem;
+    width: 30.125rem;
+    border: 1px solid #CED4DA;
+    border-radius: 0.1875rem;
+}   
+
+.dashboard-graph-heading-1{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #4F5256;
+}
+
+.dashboard-graph-img-1{
+    position: absolute;
+    top: 11.4rem;
+    left: 2rem;
+    width: 28rem;
+}
+
+.dashboard-graph-icon-1{
+    position: absolute;
+    top: 1rem;
+    left: 29.7rem;
+}
+
+.dashboard-graph-detail-1{
+    position: absolute;
+    top: 4rem;
+    left: 22.6rem;
+}
+
+.dashboard-graph-list-1{
+    list-style: none;
+    position: absolute;
+    top: 4rem;
+    left: -0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    color: #4F5256;
+    
+}
+
+.dashboard-graph-dot-icon-1{
+    margin-bottom: 1rem;
+}
+
+.dashboard-graph-text-1{
+    margin-top: -1.6rem;
+    margin-left: 1rem;
+}
+
+
+/* dashboard-graph-2 */
+
+.dashboard-graph-img-2{
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    width: 28rem;
+}
+
+/* dashboard-table */
+
+.white-section-6{
+    width: 88%;
+    margin-top: 3rem;
+    margin-left: 6%;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 0% 1rem;
+}
+
+tr{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+} 
+
+td{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #212529;
+}
+
+th{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #212529;
+}
+
+.table-title{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+    padding-top: 1rem;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    left:-0.15rem;
+}
+
+
+/* Responsive Design */
+
+@media only screen and (max-width:991px){
+
+    .dashboard-data-align-3{
+        margin-top: 2rem;
+    }
+
+    .dashboard-data-align-4{
+        margin-top: 2rem;
+    }
+
+    .dashboard-graph-align-1{
+        margin-top: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+    .dashboard-data-align-2{
+        margin-top: 2rem;
+    }
+
+}
+
+/* @media only screen and (max-width:600px){
+    .colored-section{
+        width: 64%;
+    }
+
+} */
