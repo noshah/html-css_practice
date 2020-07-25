@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -28,19 +28,19 @@
         <img class="company-logo" src="images_icons/Group_Logo.png" alt="company-logo">
       </div>
       <div class="form-box">
-        <form>
+        <form action='dashboard.html'>
           <p class="form-logo-align-2">Login</p>
           <div class="form-group">
             <img class="form-icon" src="images_icons/Email_Icon.png " alt="email-icon">
-            <input type="email" class="form-control form-input-box" placeholder="Email address">
+            <input type="email" class="form-control form-input-box" placeholder="Email address" required>
           </div>
-          <hr>
+          <hr class="login-hr">
           <div class="form-group">
             <img class="form-icon-2" src="images_icons/Password_Icon.png" alt="password-icon">
-            <input type="password" class="form-control form-input-box" placeholder="Password">
+            <input type="password" class="form-control form-input-box" placeholder="Password" required>
           </div>
-          <hr>
-          <button type="button" class="btn btn-primary" onclick="">LOGIN</button>
+          <hr class="login-hr">
+          <input type="submit" class="btn login-btn" onclick="document.location='dashboard.html'" value="LOGIN">
         </form>    
       </div>
 
