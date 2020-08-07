@@ -2,6 +2,9 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* LOGIN-PAGE */
+
+
 .login-hr {
     margin: auto;
     margin-bottom: 1rem;
@@ -121,7 +124,7 @@ body {
 }
 
 
-/* dashboard-page-styles */
+/* DASHBOARD-PAGE-STYLES */
 
 /* Dashboard-Heading */
 
@@ -135,21 +138,20 @@ body {
     position: absolute;
     left: 5.62%;
     right: 89.15%;
-    top: 3.0%;
+    top: 4.0%;
     bottom: 95.8%;
 }
 
 .dashboard-title-img-2{
     position: absolute;
-    left: 95%;
-    top: 3.0%;
+    left: 96%;
+    top: 4.0%;
 }
 
 .dashboard-title-text{
     position: absolute;
-    left: 25%;
-    top: 3.0%;
-    
+    left: 28%;
+    top: 4.0%;
     font-style: normal;
     font-weight: 500;
     font-size: 1.25rem;
@@ -157,10 +159,17 @@ body {
     color: #FFFFFF;
 }
 
+
+/* navbar-white-section */
+
 /* Dashboard-Navbar */
 
 .dashboard-navbar{
     margin-top: 2%;
+}
+
+.dashboard-navbar-detail{
+    margin-top: 5rem;
 }
 
 .dashboard-navbar-img{
@@ -171,8 +180,9 @@ body {
 }
 
 .dashboard-navbar-img-2{
-    margin-left: -0.8rem;
-    margin-bottom: 2rem;
+   position: relative;
+   left: 1rem;
+   top: 0.7rem;
 }
 
 .dashboard-navbar-text{
@@ -193,22 +203,139 @@ body {
     line-height: 1rem;
     color: #6C7177;
     display: inline;
-    margin-left: 2rem;
-    top:-0.8rem;
-    
+    left: 3rem;
+    top: 0.7rem;
 } 
+
+/* add active class to current button */
+
+.btn-2 {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    width: 5rem;
+    height: 3.125rem;
+    left: -2rem;
+}
+  
+.active-2, .btn-2:hover {
+    background: rgba(162, 162, 162, 0.09);
+    
+}
+
+.btn-3 {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    width: 14rem;
+    height: 3.125rem;
+    left: -2rem;
+}
+  
+.active-3, .btn-3:hover {
+    background: rgba(162, 162, 162, 0.09);
+}
+
+/* dashboard-icons-list */
+
+.dashboard-icons-list{
+    position: relative;
+    top:9rem;
+    left: -1.2rem;
+}
+
+.dashboard-icons-list-img{
+    margin-bottom: 2rem;
+    position: relative;
+    left: 2.1rem;
+    top:0.8rem
+}
+
+/* JQUERY-PLUGINS-CODE */
+/* fixed-header */
+
+.fixed-header {
+    position: absolute;
+    left: 0.45rem;
+    top: 5.7rem;
+    width: 3.2rem;
+    height: 40px;
+    backface-visibility: hidden;
+    z-index: 2;
+    background-color: white;
+    border-radius: 0.2rem;
+    
+}
+
+.hamburger-button{
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+
+/* body {
+    width: 100%;
+    height: 100%;
+  } */
+
+.slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 256px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
 
 /* side container */
 .colored-section{
     background:#EFEFEF;
-    height: 65rem;
-    width: 100%;
+    height: 55rem;
+    width: 95%;
     position: relative;
+    margin-left: -3.2rem;
+    margin-top: 3rem;
 }
 
-/* navbar-white-section */
+/* Dashboard-Heading-Text */
 
-/* dashboard-data */
+.dashboard-heading-text{
+    display: inline;
+    position: relative;
+    top: -3.2rem;
+    left: -1%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #6C7177;
+    margin-left: 2rem;
+}
+
+/* Dashboard-Data */
 
 .dashboard-data-heading{
     font-style: normal;
@@ -229,57 +356,56 @@ body {
 }
 
 .dashboard-data{
-    padding: 5% 5% 5% 6%;
+    padding: 2% 3% 2.7% 6%;
 }
 
-/* white-section-1 */
+/* (dashboard-data)white-section-1 */
 
 .white-section-1{
     background: #FFFFFF;
     height: 5.3125rem;
-    width: 14rem;
+    width: 16.1rem;
     border: 1px solid #CED4DA;
     border-radius: 0.1875rem;
-    
 }
   
 .dashboard-data-title-1{
     position: absolute;
-    top: 0.8rem;
-    left: 2rem;
+    top: 1.1rem;
+    left: 2.5rem;
 }
 
 .dashboard-data-img-1{
     position: absolute;
     top: 2rem;
-    left: 10rem;
+    left: 11.8rem;
 }
 
 .dashboard-data-icon-1{
     position: absolute;
-    top: 4rem;
-    left: 2.2rem;
+    top: 3.8rem;
+    left: 2.6rem;
 }
 
 .dashboard-data-sen-1{
     position: absolute;
-    top: 4.2rem;
-    left: 3.3rem;
+    top: 3.9rem;
+    left: 3.8rem;
 }
 
-/* dashboard-graph */
+/* Dashboard-Graph */
 
 .dashboard-graph{
     padding-left: 6%;
-    padding-right: 5%;
+    padding-right: 2.4%;
 }
 
-/* dashboard-graph-white-section */
+/* Dashboard-Graph-White-Section */
 
 .white-section-5{
     background: #FFFFFF;
     height: 24.3125rem;
-    width: 30.125rem;
+    width: 34.6rem;
     border: 1px solid #CED4DA;
     border-radius: 0.1875rem;
 }   
@@ -298,85 +424,135 @@ body {
 
 .dashboard-graph-img-1{
     position: absolute;
-    top: 11.4rem;
-    left: 2rem;
-    width: 28rem;
+    top: 9.5rem;
+    left: 2.1rem;
+    width: 32.2rem;
 }
 
 .dashboard-graph-icon-1{
     position: absolute;
     top: 1rem;
-    left: 29.7rem;
+    left: 34rem;
 }
 
 .dashboard-graph-detail-1{
     position: absolute;
     top: 4rem;
-    left: 22.6rem;
+    left: 26.9rem;
 }
 
 .dashboard-graph-list-1{
-    list-style: none;
-    position: absolute;
-    top: 4rem;
-    left: -0.5rem;
+   margin-top: 1.1rem;
+}
+
+.dashboard-graph-list-2{
+    margin-top: 0.5rem;
+}
+
+.dashboard-graph-dot-icon-1{
+    position: relative;
+    top:2rem;
+    left: 1rem;
+}
+
+.dashboard-graph-dot-icon-2{
+    position: relative;
+    top:-0.2rem;
+    left: 1rem;
+}
+
+.dashboard-graph-dot-icon-3{
+    position: relative;
+    top:-2.4rem;
+    left: 1rem;
+}
+
+.dashboard-graph-dot-icon-4{
+    position: relative;
+    top:2rem;
+    left: 1.1rem;
+}
+
+.dashboard-graph-dot-icon-5{
+    position: relative;
+    top:-0.3rem;
+    left: 1.1rem;
+}
+
+.dashboard-graph-text-1{
+    position: relative;
     font-style: normal;
     font-weight: 500;
     font-size: 0.6875rem;
     line-height: 0.8125rem;
     color: #4F5256;
-    
+    left: 2rem;
+    top: 0.87rem;
 }
 
-.dashboard-graph-dot-icon-1{
-    margin-bottom: 1rem;
+.dashboard-graph-text-2{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    color: #4F5256;
+    top: -1.36rem;
+    left: 2rem;
 }
 
-.dashboard-graph-text-1{
-    margin-top: -1.6rem;
-    margin-left: 1rem;
+.dashboard-graph-text-3{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    color: #4F5256;
+    top: -3.5rem;
+    left: 2rem;
 }
 
+.dashboard-graph-text-4{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    color: #4F5256;
+    top: 0.9rem;
+    left: 2.2rem;
+}
 
-/* dashboard-graph-2 */
+.dashboard-graph-text-5{
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.6875rem;
+    line-height: 0.8125rem;
+    color: #4F5256;
+    top: -1.35rem;
+    left: 2.2rem;
+}
+
+/* Dashboard-Graph-2 */
 
 .dashboard-graph-img-2{
     position: absolute;
-    top: 8rem;
+    top: 5.8rem;
     left: 2rem;
-    width: 28rem;
+    width: 32.8rem;
 }
 
-/* dashboard-table */
+/* Dashboard-Table */
 
 .white-section-6{
-    width: 88%;
-    margin-top: 3rem;
+    width: 90.5%;
+    height: 30%;
+    margin-top: 2rem;
     margin-left: 6%;
     background: #FFFFFF;
     border-radius: 3px;
     padding: 0% 1rem;
-}
-
-tr{
-    border-top: 1px solid #F0F0F0;
-    border-bottom: 1px solid #F0F0F0;
-} 
-
-td{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    color: #212529;
-}
-
-th{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    color: #212529;
 }
 
 .table-title{
@@ -392,95 +568,1367 @@ th{
     left:-0.15rem;
 }
 
+.dashboard-table-th{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #212529;
+}
 
-/* Responsive Design */
+.dashboard-table-tr{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+} 
+
+.dashboard-table-td{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #212529;
+}
+
+/* PRORPERTY-MANAGEMENT-PAGE */
+
+.property-management-section{
+    background: #E5E5E5;
+    height: 58rem;
+    width: 95%;
+    position: relative;
+    margin-left: -3.2rem;
+    margin-top: -1.98%;
+}
+
+.property-management-white-section{
+    background: #FFFFFF;
+    height: 86.5%;
+    width: 80%;
+    border: 1px solid #CED4DA;
+    border-radius: 0.1875rem;
+    margin-left: 11%;
+    margin-top: 7%;
+    padding: 0% 2%;
+}
+
+
+
+/* Property-Management-Table-Title */
+
+.property-management-table-title{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+    top: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.property-management-table-hr{
+    width: 99.5%;
+    border: 1px solid #F0F0F0;
+}
+
+/* Property-Management-Table-Button */
+
+
+.property-management-table-button{
+    margin-bottom: 1.6rem;
+    position: relative;
+    top: -0.5rem;
+    left: 80%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+    background: #4CAF50;
+    height: 2.125rem;
+    width: 11.1875rem;
+}
+
+.property-management-table-button-icon{
+    position: relative;
+    top: -0.3rem;
+    left: -0.5rem;
+}
+
+.property-management-table-button-text{
+    position: relative;
+    top: -0.2rem;
+    left: 0.5rem;
+}
+
+.property-management-table-button:hover{
+    color: #FFFFFF;
+}
+
+/* property-management-section-table */
+
+.property-management-section-table{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #212529;
+}
+
+.property-management-table-down-icon{
+    margin-left: 1.3125rem;
+}
+
+
+.property-management-table-tr{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+} 
+
+.property-management-table-tr td{
+    font-weight: normal;
+    padding-top: 1.4rem;
+    padding-bottom: 0.2rem;
+}
+
+.property-management-table-tr td div{
+    margin-top: -0.4rem;
+}
+
+
+/* Drop-Down Menu Button */
+
+.property-management-table-button-2{
+    width: 4.125rem;
+    height: 2.125rem;
+    color: #6C7177;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+}
+
+.property-management-table-button-3{
+    width: 2.3125rem;
+    height: 2.125rem;
+    color: #6C7177;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+}
+
+.property-management-table-bottom-text{
+    display: inline;
+    position: relative;
+    left: 1%;
+}
+
+.property-management-table-bottom-img{
+    position: relative;
+    left: 56.8%;
+}
+
+
+/* property-management-alert-box */
+
+
+.property-management-alert-box{
+    width: 29.875rem;
+    height: 19.375rem;
+}
+
+.property-management-alert-box-img{
+    margin-left: 11rem;
+    margin-top: 2rem;
+}
+
+.property-management-alert-box-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6875rem;
+    line-height: 2rem;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+}
+
+.property-management-alert-box-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: rgba(0, 0, 0, 0.64);
+    text-align: center;
+}
+
+.property-management-alert-box-btn-1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+/* ADD NEW PROPERTY PAGE */
+
+.add-new-property-section{
+    background: #E5E5E5;
+    height: 121rem;
+    width: 95%;
+    position: relative;
+    margin-left: -3.2rem;
+    margin-top: -1.98%;
+}
+
+.add-new-property-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+}
+
+/* Pictures-Section */
+
+.add-new-property-hr{
+    width: 96.6%;
+    border: 1px solid #F0F0F0;
+}
+
+.add-new-property-pictures-container{
+    width: 7.75rem;
+    height: 11.4375rem;
+    border: 2px solid #F0F0F0;
+    margin-left: 0.8rem;
+}
+
+.add-new-property-pictures-heading{
+    margin-top: 0.375rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: center;   
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.add-new-property-pictures-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+.add-new-property-pictures-text-2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5625rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: #6C7177;
+}
+
+.add-new-property-pictures-img{
+    margin-left: 1.65rem;
+    margin-top: 2.1rem;
+}
+
+/* Detail-Section(Add-New-Property-Page) */
+
+.add-new-property-detail-label{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+}
+
+.add-new-property-detail-text{
+    text-align: center;
+}
+
+.add-new-property-detail-text::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    color: #999999;
+    opacity: 0.99;
+    text-align: left;
+}
+
+.add-new-property-detail-serch-icon{
+    position: absolute;
+    top: 0.66rem;
+    left: 1.4rem;
+}
+
+.add-new-property-detail-radio-button{
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.add-new-property-detail-radio-button + .add-new-property-detail-radio-label:before {
+    content: "";
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin-right: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1px solid #CED4DA;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+  
+  /* appearance for checked radiobutton */
+.add-new-property-detail-radio-button:checked + .add-new-property-detail-radio-label:before {
+    background-color: #666666;
+}
+  
+  /* optional styles, I'm using this for centering radiobuttons */
+.add-new-property-detail-radio-label {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #4F5256;
+}
+
+.add-new-property-amenities-heading{
+    display: inline;
+    position: relative;
+}
+
+.add-new-property-amenities-container{
+    margin-top: -1.7rem;
+}
+
+/* checked button */
+
+.add-new-property-amenities-checkbox {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.add-new-property-amenities-checkbox input[type="checkbox"] {
+    width: auto;
+    opacity: 0.00000001;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+}
+
+.add-new-property-amenities-checkbox label {
+    position: relative;
+}
+
+.add-new-property-amenities-checkbox label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.28s ease;
+    border-radius: 3px;
+    border: 1px solid #CED4DA;
+}
+.add-new-property-amenities-checkbox label:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid  #666666;;
+    border-left: 2px solid  #666666;;
+    -webkit-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    transition: transform ease 0.25s;
+    will-change: transform;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.add-new-property-amenities-checkbox input[type="checkbox"]:checked ~ label::before {
+    color: #666666;
+}
+
+.add-new-property-amenities-checkbox input[type="checkbox"]:checked ~ label::after {
+    -webkit-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+
+.add-new-property-amenities-checkbox label {
+    min-height: 34px;
+    display: block;
+    padding-left: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+}
+
+.add-new-property-amenities-checkbox label span {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.add-new-property-amenities-checkbox input[type="checkbox"]:focus + label::before {
+    outline: 0;
+}
+
+/* Add-New-Property-Button */
+
+.add-new-property-button{
+    margin-left: 17.8%;
+}
+
+.add-new-property-button-2{
+    border: 1px solid #ECEFF1;
+    width: 81px;
+    height: 41px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #6C7177;
+}
+
+.add-new-property-button-3{
+    margin-left: 0.4rem;
+    border: 1px solid #ECEFF1;
+    width: 98px;
+    height: 41px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4CAF50;
+}
+
+.add-new-property-button-2:hover{
+    color: #6C7177;
+}
+
+.add-new-property-button-3:hover{
+    color: #FFFFFF;
+}
+
+
+/* Detail-Property-Page */
+
+.detail-property-section{
+    background: #E5E5E5;
+    height: 104rem;
+    width: 95%;
+    position: relative;
+    margin-left: -3.2rem;
+    margin-top: -1.98%;
+}
+
+.detail-property-pictures-container{
+    width: 11.4rem;
+    height: 11.4375rem;
+    margin-left: 0.8rem;
+}
+
+.detail-property-detail-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #4F5256;
+}
+
+.detail-property-detail-text-style{
+    padding-right: 35%;
+}
+
+.detail-property-amenities{
+    height: 9rem;
+}
+
+/* detail-property-button*/
+
+.detail-property-button{
+    margin-left: 17.8%;
+}
+
+.detail-property-button-1{
+    border: 1px solid #ECEFF1;
+    width: 90px;
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #6C7177;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.detail-property-button-1:hover{
+    color: #6C7177;
+}
+
+.detail-property-button-2{
+   
+    width: 82px;
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    background: #448AFF;
+}
+
+.detail-property-button-2:hover{
+    color: #FFFFFF;
+}
+
+.detail-property-button-3{
+   
+    width: 154px;
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    border-radius: 0px 3px 3px 0px;
+    background: #03A9F4;
+}
+
+.detail-property-button-3:hover{
+    color: #FFFFFF;
+}
+
+/* Property_Booking_Schedule_Page */
+
+.property-booking-schedule-section{
+    background: #E5E5E5;
+    height: 84rem;
+    width: 95%;
+    position: relative;
+    margin-left: -3.2rem;
+    margin-top: -1.98%;
+}
+
+.property-booking-schedule-white-section{
+    background: #FFFFFF;
+    height: 86.5%;
+    width: 60.5%;
+    border: 1px solid #CED4DA;
+    border-radius: 0.1875rem;
+    margin-left: 20%;
+    margin-top: 7%;
+    padding: 0% 2%;
+}
+
+/* property_booking_schedule_calendar_section */
+
+.property-booking-schedule-cal-section{
+    position: relative;
+    left: -0.6%;
+}
+ 
+ .property-booking-schedule-cal-heading{
+    background: #6945FF; 
+    width: 101.6%;
+    height: 4rem;
+}
+
+.property-booking-schedule-cal-heading h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    margin-top: 8%;
+    margin-left: 35%;
+}
+
+.property-booking-schedule-cal-but-1{
+    margin-top: 8%;
+    margin-left: 30%;
+}
+
+.property-booking-schedule-cal-but-2{
+    margin-top: 8%;
+    margin-left: 38%;
+}
+
+.property-booking-schedule-cal-table{
+    width: 101.7%;
+}
+
+.property-booking-schedule-cal-table th{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.74375rem;
+    line-height: 0.875rem;
+    color: #FFFFFF;
+}
+
+.property-booking-schedule-cal-table td{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.74375rem;
+    line-height: 0.875rem;
+    color: #4F5256;
+}
+
+.property-booking-schedule-hr{
+    position: relative;
+    left: -3.6%;
+    border: 1px solid #F0F0F0;
+    width: 106.9%;
+}
+
+.property-booking-schedule-table-tr{
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.property-booking-schedule-table-tr td {
+    font-weight: normal;
+}
+
+.property-booking-schedule-table-down-icon{
+    margin-left: 0.5rem;
+}
+
+.property-booking-schedule-bottom-text{
+    font-weight: normal;
+    margin-top: 3%;
+}
+
+.property-booking-schedule-bottom-img{
+    margin-left: 25%;
+}
+
+/* This Below Action Happn When User Click Hamburger Button. */
+
+.hide-nav{
+    display: none;
+}
+
+.dashboard-heading-text-2{
+    left: 8%;
+}
+
+.white-section-2{
+    width: 13.7rem;
+}
+
+.dashboard-data-img-2{
+    left: 9.5rem;
+}
+
+.dashboard-data-2{
+    padding-right: 20%;
+}
+
+.white-section-7{
+    width: 28.5rem;
+}
+
+.dashboard-graph-2{
+    padding-right: 22%;
+    padding-left: 6%;
+}
+
+.dashboard-graph-img-3{
+    width: 26.6rem;
+    height: 13rem;
+    top: 10.5rem;
+    left: 1.8rem;
+}
+
+.dashboard-graph-img-4{
+    height: 17rem;
+    width: 26.6rem;
+    top: 6.8rem;
+    left: 1.8rem;
+}
+
+.dashboard-graph-icon-2{
+    top: 1rem;
+    left: 28.2rem;
+}
+
+.dashboard-graph-detail-2{
+    top: 4rem;
+    left: 21.2rem;
+}
+
+.dashboard-table-2{
+    padding-left: 1%;
+    padding-right: 17%;
+}
+
+.white-section-8{
+    height: 16.5rem;
+}
+
+.scroll-section{
+    overflow: scroll;
+}
+
+/* Property-Management-Page */
+
+.property-management-main-2{
+    margin-top: -2%;
+}
+
+.property-management-section-2{
+    height: 62rem;
+    padding: 2% 8% 0% 1%;
+}
+
+.property-management-table-button-4{
+    left: 77%;
+}
+
+/* Add-New-Property-Page */
+.add-new-property-section-2{
+    padding-right: 7%;
+    padding-top: 1%;
+}
+
+/* Detail-Property-Page */
+.detail-property-section-2{
+    padding-right: 8%;
+    padding-left: 0%;
+    padding-top: 1%;
+    height: 105rem;
+}
+
+/* Property-Booking-Schedule-Page */
+.property-booking-schedule-section-2{
+    height: 86rem;
+    padding-top: 2%;
+    padding-right: 6%;
+}
+
+
+
+/*Responsive Design(For Pages) */
+
+@media only screen and (max-width:1310px){
+    .property-management-table-bottom-img{
+        left: 55.3%;
+    }
+    
+}
+
+@media only screen and (max-width:1250px){
+    .property-management-table-button{
+        left: 77%;
+        margin-bottom: 1rem;
+    }
+    .property-management-table-bottom-img{
+        left: 53%;
+    }
+}
+
+@media only screen and (max-width:1210px){
+    .property-management-table-bottom-img{
+        left: 51%;
+    }
+    
+}
+
+@media only screen and (max-width:1177px){
+    .detail-property-section{
+        height: 108rem;
+    }
+    .detail-property-section-2{
+        height: 109rem;
+    }
+}
+
+@media only screen and (max-width:1160px){
+    .property-management-section{
+        height: 62rem;
+    }
+    .property-booking-schedule-bottom-img{
+        margin-left: 15%;
+    }
+}
+
+
+@media only screen and (max-width:1147px){
+    .add-new-property-section{
+        height: 125rem;
+    }
+}
+
+@media only screen and (max-width:1140px){
+    .property-management-table-bottom-img{
+        left: 48%;
+    }
+    
+}
+
+@media only screen and (max-width:1100px){
+    .property-management-table-button{
+        left: 74%;
+    }
+    .property-management-table-bottom-img{
+        left: 46%;
+    }
+}
+
+@media only screen and (max-width:1077px){
+    .add-new-property-section{
+        height: 130rem;
+    }
+    .detail-property-section{
+        height: 112rem;
+    }
+    .detail-property-section-2{
+        height: 113rem;
+    }
+}
+
+@media only screen and (max-width:1070px){
+    .property-management-table-bottom-img{
+        left: 44%;
+    }
+    
+}
+
+@media only screen and (max-width:1030px){
+    .property-management-table-bottom-img{
+        left: 41.5%;
+    }
+    .detail-property-section{
+        height: 114rem;
+    }
+    .detail-property-section-2{
+        height: 115rem;
+    }
+    
+}
+
+@media only screen and (max-width:1000px){
+    .property-management-section-2{
+        height: 76rem;
+    }
+    .property-booking-schedule-bottom-img{
+        margin-left: 0%;
+    }
+    
+}
+
+
 
 @media only screen and (max-width:991px){
 
-    .dashboard-data-align-3{
-        margin-top: 2rem;
-    }
-
-    .dashboard-data-align-4{
-        margin-top: 2rem;
-    }
-
-    .dashboard-graph-align-1{
-        margin-top: 2rem;
-    }
-
     .colored-section{
-        height: 250%;
+        
+        height: 95rem;
+    }
+
+    .dashboard-data{
+        padding-left: 10%;
+        padding-right: 17%;
+        margin-bottom: 1rem;
+    }
+
+    .dashboard-data-2{
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+    
+    .dashboard-graph{
+        padding-left: 10%;
+    }
+
+    .dashboard-table{
+        padding-left: 4.1%;
+    }
+
+    .dashboard-table-2{
+        padding-left: 5.2%;
+    }
+
+    .white-section-8{
+        height: 20rem;
+    }
+
+    .dashboard-data-align-3, .dashboard-data-align-4, .dashboard-graph-align-1{
+        margin-top: 2rem;
+    }
+
+    .dashboard-heading-text{
+        top: -3rem;
+    }
+
+    .dashboard-heading-text-2{
+        left: 12%;        
+    }
+
+    .fixed-header{
+        top: 5.3rem;
+    }
+
+    .property-management-table-button{
+        left: 70.5%;
+    }
+
+    .property-management-table-bottom-img{
+        left: 39.5%;
+    }
+
+    .add-new-property-section{
+        height: 135rem;
+    }
+    .detail-property-section{
+        height: 108rem;
+    }
+    .detail-property-section-2{
+        height: 109rem;
+    }
+    .property-booking-schedule-cal-but-1 , .property-booking-schedule-cal-but-2, .property-booking-schedule-cal-heading h3{
+        margin-top: 12%;
+    }
+    .property-booking-schedule-section{
+        height: 86rem;
+    }
+}
+
+@media only screen and (max-width:930px){
+    .property-management-section{
+        height: 74rem;   
+    }
+}
+
+@media only screen and (max-width:960px){
+    .property-management-table-bottom-img{
+        left: 37%;
+    }
+    
+}
+
+@media only screen and (max-width:925px){
+    .property-management-table-bottom-img{
+        top: -0.5rem;
+        left: 34%;
+    }
+    
+}
+
+@media only screen and (max-width:890px){
+    .property-management-table-bottom-img{
+        left: 31%;
+    }
+    .property-booking-schedule-button{
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:880px){
+    .property-management-table-button{
+        left: 67%;
+    }
+    .property-management-table-bottom-img{
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .property-management-table-bottom-img{
+        left: 28%;
+    }
+    .add-new-property-pictures-container-2{
+        margin-top: 12.5rem;
+        margin-left: -16.3rem;
+    }
+    .add-new-property-pictures-container-3{
+        margin-top: 12.5rem;
+        
+    }
+
+    .add-new-property-section{
+        height: 153rem;
+    }
+
+    .detail-property-pictures-container-3{
+        margin-top: 12.5rem;
+        margin-left: -23.6rem;
+    }
+
+    .detail-property-section{
+        height: 124rem;
+    }
+    .detail-property-section-2{
+        height: 125rem;
+    }
+    .property-booking-schedule-section-2{
+        height: 99rem;
+    }
+}
+
+@media only screen and (max-width:827px){
+    .property-booking-schedule-section{
+        height: 98.5rem;
+    }
+}
+
+@media only screen and (max-width:825px){
+    .property-management-table-bottom-img{
+        left: 25%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:800px){
+    .property-management-table-button{
+        left: 64%;
+    }
+    .detail-property-section{
+        height: 129rem;
+    }
+    .detail-property-section-2{
+        height: 130rem;
     }
     
 }
 
 @media only screen and (max-width:767px){
+
+    .colored-section{
+        height: 110rem;
+    }
+
+    .dashboard-data{
+        padding-left: 10%;
+        padding-right: 20%;
+        margin-bottom: 2rem;
+    } 
+    
+    .dashboard-graph{
+        padding-left: 9.7%;
+    }
+
     .dashboard-data-align-2{
         margin-top: 2rem;
     }
 
-    .colored-section{
-        height: 300%;
+    .dashboard-title-img-2{
+        left: 94%;
     }
 
+    .dashboard-heading-text{
+        top: -2.8rem;
+    }
+
+    .dashboard-heading-text-2{
+        left: 14%;        
+    }
+
+    .fixed-header{
+        top: 5.3rem;
+    }
+
+    .property-management-table-bottom-img{
+        top: -0.5rem;
+        left: 27%;
+    }
+
+    .add-new-property-amenities-container{
+        margin-top: 0.5rem;
+    }
+    .detail-property-section{
+        height: 130rem;
+    }
+    .detail-property-section-2{
+        height: 131rem;
+    }
+    
+}
+
+@media only screen and (max-width:750px){
+    .white-section-5{
+        height: 22rem;
+        width: 20rem;
+    }   
+
+    .dashboard-graph-img-1{
+        top: 8.6rem;
+        left: 2.1rem;
+        width: 18rem;
+        height: 13rem;
+    }
+
+    .dashboard-graph-icon-1{
+        top: 1.2rem;
+        left: 19.6rem;
+    }
+
+    .dashboard-graph-detail-1{
+        top: 5.5rem;
+        left: 12.5rem;
+    }
+
+    .dashboard-graph-img-2{
+        top: 6.6rem;
+        left: 2rem;
+        width: 18rem;
+        height: 15rem;
+    }
+
+    .white-section-8{
+        height: 20.6rem;
+    }
+
+    .property-management-table-button{
+        left: 60%;
+    }
+
+    .property-booking-schedule-cal-but-1 , .property-booking-schedule-cal-but-2, .property-booking-schedule-cal-heading h3{
+        margin-top: 16%;
+    }
+
+}
+
+
+@media only screen and (max-width:716px){
+    .white-section-8{
+        height: 23.7rem;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .property-management-table-bottom-img{
+        left: 29%;
+    }
+}
+
+@media only screen and (max-width:670px){
+    .property-management-table-button{
+        left: 57%;
+    }
+    .property-management-table-bottom-img{
+        left: 30%;
+    }
+    .detail-property-section{
+        height: 132rem;
+    }
+    .detail-property-section-2{
+        height: 133rem;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .detail-property-section{
+        height: 136rem;
+    }
+    .detail-property-section-2{
+        height: 137rem;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .colored-section{
+        width: 88%;
+    }
+    .white-section-8{
+        height: 26.7rem;
+    }
+    .property-management-table-button{
+        left: 54%;
+    }
+    .property-management-table-bottom-img{
+        left: 32%;
+    }
+}
+
+@media only screen and (max-width:624px){
+    .add-new-property-section{
+        height: 155rem;
+    }
+    .detail-property-detail-text-style{
+        padding-right: 10%;
+    }
+    .detail-property-button{
+        margin-left: 1%;
+    }
+    .detail-property-section{
+        height: 132rem;
+    }
+    .detail-property-section-2{
+        height: 133rem;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .detail-property-pictures-container-2{
+        margin-top: 12.5rem;
+        margin-left: -11.4rem;
+    }
+    .detail-property-pictures-container-3{
+        margin-top: 25rem;
+        margin-left: -11.4rem;
+    }
+    .detail-property-section{
+        height: 148rem;
+    }
+    .detail-property-section-2{
+        height: 149rem;
+    }
+    .property-booking-schedule-cal-but-1{
+        margin-top: 24%;
+        margin-left: 10%;
+    }
+    .property-booking-schedule-cal-heading h3{
+        margin-top: 20%;
+        margin-left: 16%;
+    }
+    .property-booking-schedule-cal-but-2{
+        margin-top: 24%;
+        margin-left: -7%;
+    }
+
+    .property-booking-schedule-hr{
+        width: 106.3%;
+    }
+    
+}
+
+@media only screen and (max-width:597px){
+    .property-booking-schedule-section{
+        height: 101rem;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .colored-section{
+        height: 120rem;
+        width: 86%;
+    }
+    .white-section-8{
+        height: 29.6rem;
+    }
+    .property-management-table-bottom-img{
+        left: 34%;
+    }
+    .detail-property-section{
+        height: 151rem;
+    }
+    .detail-property-section-2{
+        height: 152rem;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .add-new-property-section{
+        height: 185rem;
+    }
+}
+
+
+
+@media only screen and (max-width:550px){
+    .property-management-table-button{
+        left: 51%;
+    }
+    .property-management-table-bottom-img{
+        left: 54%;
+    }
+    .detail-property-section{
+        height: 157rem;
+    }
+    .detail-property-section-2{
+        height: 158rem;
+    }
+
+}
+
+@media only screen and (max-width:532px){
+    .detail-property-button{
+        margin-left: 20%;
+    }
+    .detail-property-button-2{
+        margin-left: 1rem;
+    }
+    .detail-property-button-3{
+        margin-top: 0.5rem;
+        margin-left: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width:520px){
+    .detail-property-detail-text-style{
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width:515px){
+    .detail-property-section{
+        height: 162rem;
+    }
+    .detail-property-section-2{
+        height: 163rem;
+    }
 }
 
 @media only screen and (max-width:503px){
     .colored-section{
-        
-        height: 310%;
+        width: 85.5%;
+    }
+    .white-section-8{
+        height: 32.7rem;
     }
 
-}
+    .dashboard-title-img-2{
+        left: 94%;
+    }
 
+    .dashboard-heading-text{
+        top: -2.6rem;
+    }
 
-/* jquary plugins */
+    .dashboard-heading-text-2{
+        left: 16%;        
+    }
 
-/*  
-    Recommeded CSS
-    ==============
-*/
+    .fixed-header{
+        top: 5.2rem;
+    }
 
-.panel {
-    position: sticky;
-    left: -15.625em; /*or width of your navigation panel*/
-    width: 15.625em; /*should match the above value*/
-}
+    .property-management-table-button{
+        left: 48%;
+    }
 
-/*  
-    Demo Specific Styles
-    ====================
-*/
-
-/* body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #101820;
-    line-height: 1.5;
-} */
-
-.wrap {
-    position: relative;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0%;
-    margin-left: 3.5rem;
-    margin-top: 4rem;
-}
-
-.panel {
-    background: #FFFFFF;
-    margin-top: 5rem;
-    
-}
-
-.panel a {
-    color: rgba(108, 113, 119, 0.87);
-}
-
-.hamburger-button{
-    position: relative;
-    top:-3rem;
-    left: -2.3rem;
+    .property-management-section-2{
+        height: 78rem;
+    }
+    .property-booking-schedule-section{
+        height: 103rem;
+    }
 }
 
